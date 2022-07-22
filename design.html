@@ -37,8 +37,17 @@
             d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
     </svg>
     <div class="row">
-
-        <div class="col-0 col-md-4 col-xl-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#bbbbbb"
+            class="bi bi-list d-none display-mobile" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#bbbbbb"
+            class="bi bi-x float-right d-none no-display-mobile hamburger-close " viewBox="0 0 16 16">
+            <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+        </svg>
+        <div class="col-0 col-md-4 col-xl-4 no-display-mobile sidebar">
             <div class="pic-area"><svg xmlns="http://www.w3.org/2000/svg" width="98" height="98" fill="currentColor"
                     class="bi bi-person-fill" viewBox="0 0 16 16">
                     <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
@@ -56,7 +65,7 @@
                                 d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
                         </svg> Edit
                         Profile</button>
-                    <div class="mt-4">
+                    <div class="mt-4 p-2">
                         <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                 class="bi bi-bookmark-star" viewBox="0 0 16 16">
                                 <path
@@ -81,8 +90,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-8 col-xl-8">
 
+        <div class="col-12 col-md-8 col-xl-8 main-plain">
+            <span class="tooltiptext no-display-mobile"></span>
             <h1 class="text-white fw-bold">My CMX Rewards</h1>
             <hr class="text-bg-secondary">
             <!-- card html begins -->
@@ -102,37 +112,40 @@
                     <hr class="m-0">
                     <div class="text-black mt-4">
                         <div class="row">
-                            <div class="col-1">
+                            <div class="col-2 col-md-1 col-lg-1 col-xl-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-check-circle-fill" viewBox="0 0 16 16">
                                     <path
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                                 </svg>
                             </div>
-                            <div class="col-11 p-0">Only two more Food & Beverage purchases to become Platinum</div>
+                            <div class="col-10 col-md-11 col-lg-11 col-xl-11 p-0">Only two more Food & Beverage
+                                purchases to become Platinum</div>
                         </div>
                         <div class="mt-2">
                             <div class="row">
-                                <div class="col-1">
+                                <div class="col-2 col-md-1 col-lg-1 col-xl-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-check-circle-fill" viewBox="0 0 16 16">
                                         <path
                                             d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                                     </svg>
                                 </div>
-                                <div class="col-11 p-0">Buy 2 more tickets to get your first free ticket</div>
+                                <div class="col-10 col-md-11 col-lg-11 col-xl-11 p-0">Buy 2 more tickets to get your
+                                    first free ticket</div>
                             </div>
                         </div>
                         <div class="mt-2">
                             <div class="row">
-                                <div class="col-1">
+                                <div class="col-2 col-md-1 col-lg-1 col-xl-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-check-circle-fill" viewBox="0 0 16 16">
                                         <path
                                             d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                                     </svg>
                                 </div>
-                                <div class="col-11 p-0">Earn 220 more Food & Beverage points to receive your next reward
+                                <div class="col-10 col-md-11 col-lg-11 col-xl-11 p-0">Earn 220 more Food & Beverage
+                                    points to receive your next reward
                                 </div>
                             </div>
                         </div>
@@ -140,7 +153,8 @@
                     <div class="mt-4">
                         <div class="row">
                             <div class="col-12 col-xl-6">
-                                <button type="button" class="btn btn-danger qr-code text-uppercase pt-2 pb-2">
+                                <button type="button"
+                                    class="btn btn-danger qr-code text-uppercase pt-2 pb-2 w-100-mobile">
                                     <span class="skew-fix"><svg xmlns="http://www.w3.org/2000/svg" width="16"
                                             height="16" fill="currentColor" class="bi bi-qr-code" viewBox="0 0 16 16">
                                             <path d="M2 2h2v2H2V2Z" />
@@ -152,7 +166,7 @@
                                         </svg> CMX Rewards QR Code</span>
                                 </button>
                             </div>
-                            <div class="col-12 col-xl-6 text-right-left-tab m-auto mt-md-4">
+                            <div class="col-12 col-xl-6 text-right-left-tab m-auto mt-tab-4">
                                 <a class="text-uppercase text-dark-red">View your unclaimed rewards</a>
                             </div>
 
@@ -187,7 +201,7 @@
             <div class="margin-top-10p"></div>
             <!-- Chart section starts -->
             <div class="row">
-                <div class="col-12 col-xl-6 ">
+                <div class="col-12 col-xl-6 text-center-mobile">
                     <div id="demo-pie-1" class="pie-title-center" data-percent="70"> <span class="pie-value">
                             <h1 class="fw-bold m-0">07</h3>
                                 <p class="text-uppercase m-0">Tickets purchased out of 20</p>
@@ -196,13 +210,15 @@
                         <div class="text-white">Buy 3 more tickets, to get your next free ticket</div>
                     </div>
                 </div>
-                <div class="col-12 col-xl-6 mt-md-4 ">
-                    <div id="demo-pie-2" class="pie-title-center" data-percent="100"> <span class="pie-value">
+                <div class="col-12 col-xl-6 mt-md-4 text-center-mobile">
+                    <div id="demo-pie-2" class="pie-title-center margin-top-4-mobile" data-percent="100"> <span
+                            class="pie-value">
                             <h1 class="fw-bold m-0">500</h4>
                                 <p class="text-uppercase m-0">Food & Beverage points out of 500</p>
                         </span> </div>
                     <div class="text-center mt-4 me-md-5">
-                        <button type="button" class="btn btn-light text-uppercase border-radius-25 font-12">Redeem
+                        <button type="button"
+                            class="btn btn-light text-uppercase border-radius-25 font-12 w-100-mobile">Redeem
                             Now</button>
                     </div>
                 </div>
@@ -215,7 +231,7 @@
                 <div class="col">
                     <hr class="text-bg-secondary margin-top-5p">
                 </div>
-                <div class="col-5 col-xl-3 p-0">
+                <div class="col-8 col-md-5 col-xl-3 p-0">
                     <p class="text-secondary fw-semibold m-0">Free Ticket Vouchers</p>
                 </div>
                 <div class="col margin-left-minus4p">
@@ -231,7 +247,8 @@
                     <p class="text-secondary fw-semibold">Expires on 22 April 2022</p>
                 </div>
                 <div class="col-12 col-xl-5 text-right m-auto"><button type="button"
-                        class="btn btn-danger text-uppercase border-radius-25 padding-lr-10">Redeem Now</button>
+                        class="btn btn-danger text-uppercase border-radius-25 padding-lr-10 w-100-mobile">Redeem
+                        Now</button>
                 </div>
             </div>
             <div class="row mt-5">
@@ -243,7 +260,8 @@
                     <p class="text-red fw-semibold">Expires on 03 March 2022</p>
                 </div>
                 <div class="col-12 col-xl-5 text-right m-auto"><button type="button"
-                        class="btn btn-danger text-uppercase border-radius-25 padding-lr-10">Redeem Now</button>
+                        class="btn btn-danger text-uppercase border-radius-25 padding-lr-10 w-100-mobile">Redeem
+                        Now</button>
                 </div>
             </div>
             <div class="row mt-5">
@@ -266,7 +284,7 @@
                     <p class="text-secondary fw-semibold">Expires on 05 May 2022</p>
                 </div>
                 <div class="col-12 col-xl-5 text-right m-auto"><button type="button"
-                        class="btn btn-danger text-uppercase border-radius-25 padding-lr-10"><svg
+                        class="btn btn-danger text-uppercase border-radius-25 padding-lr-10 w-100-mobile"><svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-qr-code-scan" viewBox="0 0 16 16">
                             <path
@@ -288,7 +306,7 @@
                     <p class="text-secondary fw-semibold">Expires on 24 June 2022</p>
                 </div>
                 <div class="col-12 col-xl-5 text-right m-auto"><button type="button"
-                        class="btn btn-danger text-uppercase border-radius-25 padding-lr-10"><svg
+                        class="btn btn-danger text-uppercase border-radius-25 padding-lr-10 w-100-mobile"><svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-qr-code-scan" viewBox="0 0 16 16">
                             <path
@@ -310,7 +328,7 @@
                     <p class="text-secondary fw-semibold">Expires on 05 July 2022</p>
                 </div>
                 <div class="col-12 col-xl-5 text-right m-auto"><button type="button"
-                        class="btn btn-danger text-uppercase border-radius-25 padding-lr-10"><svg
+                        class="btn btn-danger text-uppercase border-radius-25 padding-lr-10 w-100-mobile"><svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-qr-code-scan" viewBox="0 0 16 16">
                             <path
@@ -335,36 +353,44 @@
                     <div class="col-12 col-xl-8">
                         <h3 class="text-white fw-bold">Free Tickets</h3>
                         <div class="mt-2 text-white">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff"
-                                class="bi bi-check-circle-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
-                            </svg>
-                            <span> 1 free ticket issued on your birthday <sup>1</sup></span>
-                        </div>
-                        <div class="mt-2 text-white">
                             <div class="row">
-                                <div class="col-1">
+                                <div class="col-2 col-md-1 col-lg-1 col-xl-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff"
                                         class="bi bi-check-circle-fill" viewBox="0 0 16 16">
                                         <path
                                             d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                                     </svg>
                                 </div>
-                                <div class="col-11 p-0"> 1 free ticket for every 10 tickets purchased</div>
+                                <div class="col-10 col-md-11 col-lg-11 col-xl-11 p-0">1 free ticket issued on your
+                                    birthday <sup>1</sup></div>
+                            </div>
+
+                        </div>
+                        <div class="mt-2 text-white">
+                            <div class="row">
+                                <div class="col-2 col-md-1 col-lg-1 col-xl-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff"
+                                        class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                    </svg>
+                                </div>
+                                <div class="col-10 col-md-11 col-lg-11 col-xl-11 p-0"> 1 free ticket for every 10
+                                    tickets purchased</div>
 
                             </div>
                         </div>
                         <div class="mt-2 text-white">
                             <div class="row">
-                                <div class="col-1">
+                                <div class="col-2 col-md-1 col-lg-1 col-xl-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff"
                                         class="bi bi-check-circle-fill" viewBox="0 0 16 16">
                                         <path
                                             d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                                     </svg>
                                 </div>
-                                <div class="col-11 p-0"> 1 optional Free ticket after reaching 500 Food & Beverage
+                                <div class="col-10 col-md-11 col-lg-11 col-xl-11 p-0"> 1 optional Free ticket after
+                                    reaching 500 Food & Beverage
                                     Points</div>
 
                             </div>
@@ -383,14 +409,15 @@
                         <h3 class="text-white fw-bold">Free Food & Drinks</h3>
                         <div class="mt-2 text-white">
                             <div class="row">
-                                <div class="col-1">
+                                <div class="col-2 col-md-1 col-lg-1 col-xl-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff"
                                         class="bi bi-check-circle-fill" viewBox="0 0 16 16">
                                         <path
                                             d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                                     </svg>
                                 </div>
-                                <div class="col-11 p-0"> 1 optional $5.00 Free Food & Beverage Voucher after
+                                <div class="col-10 col-md-11 col-lg-11 col-xl-11 p-0"> 1 optional $5.00 Free Food &
+                                    Beverage Voucher after
                                     reaching 500 Food & Beverage
                                     Points <sup>2</sup></div>
 
@@ -410,14 +437,16 @@
                         <h3 class="text-white fw-bold">Wednesday Special Pricing</h3>
                         <div class="mt-2 text-white">
                             <div class="row">
-                                <div class="col-1">
+                                <div class="col-2 col-md-1 col-lg-1 col-xl-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff"
                                         class="bi bi-check-circle-fill" viewBox="0 0 16 16">
                                         <path
                                             d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                                     </svg>
                                 </div>
-                                <div class="col-11 p-0">$5 Tickets every wednesday <sup>3</sup></div>
+                                <div class="col-10 col-md-11 col-lg-11 col-xl-11 p-0">$5 Tickets every wednesday
+                                    <sup>3</sup>
+                                </div>
 
                             </div>
 
@@ -435,14 +464,15 @@
                         <h3 class="text-white fw-bold">Earn Food & Beverage Points</h3>
                         <div class="mt-2 text-white">
                             <div class="row">
-                                <div class="col-1">
+                                <div class="col-2 col-md-1 col-lg-1 col-xl-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff"
                                         class="bi bi-check-circle-fill" viewBox="0 0 16 16">
                                         <path
                                             d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                                     </svg>
                                 </div>
-                                <div class="col-11 p-0">Earn 5x points for every dollar spent <sup>4</sup></div>
+                                <div class="col-10 col-md-11 col-lg-11 col-xl-11 p-0">Earn 5x points for every dollar
+                                    spent <sup>4</sup></div>
 
                             </div>
                         </div>
@@ -459,7 +489,7 @@
                     vouchers</li>
             </ol>
             <!-- points ends  -->
-            <button type="button" class="btn btn-danger qr-code text-uppercase mt-3 pt-2 pb-2">
+            <button type="button" class="btn btn-danger qr-code text-uppercase mt-3 pt-2 pb-2 w-100-mobile">
                 <span class="skew-fix"> View other plans</span>
             </button>
         </div>
@@ -521,6 +551,28 @@
             trackColor: '#bbbbbb',
             lineCap: 'square',
             lineWidth: 34,
+        });
+        $('.bi-list').click(function () {
+            $('.bi-list').addClass("no-display-mobile");
+            $('.bi-list').removeClass("display-mobile");
+            $('.hamburger-close').removeClass("no-display-mobile");
+            $('.hamburger-close').addClass("display-mobile");
+            $('.sidebar').removeClass("no-display-mobile");
+            $('.sidebar').addClass("display-mobile");
+            $('.tooltiptext').removeClass("no-display-mobile");
+            $('.tooltiptext').addClass("display-mobile");
+            $('.main-plain').addClass("margin-top-4-mobile");
+        });
+        $('.hamburger-close').click(function () {
+            $('.bi-list').removeClass("no-display-mobile");
+            $('.bi-list').addClass("display-mobile");
+            $('.hamburger-close').addClass("no-display-mobile");
+            $('.hamburger-close').removeClass("display-mobile");
+            $('.sidebar').addClass("no-display-mobile");
+            $('.sidebar').removeClass("display-mobile");
+            $('.tooltiptext').addClass("no-display-mobile");
+            $('.tooltiptext').removeClass("display-mobile");
+            $('.main-plain').removeClass("margin-top-4-mobile");
         });
     });
 </script>

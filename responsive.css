@@ -1,12 +1,110 @@
 @media (min-width: 320px) and (max-width: 575px) {
   body {
     padding: 2% !important;
+    padding-top: 4% !important;
+    padding-bottom: 14% !important;
+  }
+
+  .display-mobile {
+    display: flex !important;
+    flex-basis: content;
+  }
+
+  .bi-x {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .no-display-mobile {
+    display: none !important;
+  }
+
+  canvas {
+    height: 250px !important;
+    width: 250px !important;
+  }
+
+  .text-right-left-tab {
+    text-align: left !important;
+  }
+
+  .mt-tab-4 {
+    margin-top: 1.5rem !important;
+  }
+
+  #demo-pie-1,
+  #demo-pie-2 {
+    width: 249px !important;
+    height: 249px !important;
+  }
+
+  .pie-value {
+    left: 16% !important;
+  }
+
+  .padding-lr-20 {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+
+  .margin-top-4-mobile {
+    margin-top: 1.5rem !important;
+  }
+
+  .margin-top-5p {
+    margin-top: 40% !important;
+  }
+
+  .margin-left-minus4p {
+    margin-left: -7% !important;
+  }
+
+  .w-100-mobile {
+    width: 100% !important;
+  }
+
+  .pic-area {
+    width: 80px;
+    height: 80px;
+    margin-left: 22%;
+    margin-top: -4%;
+  }
+
+  .bi-person-fill {
+    width: 78px !important;
+    height: 78px !important;
+  }
+
+  .main-plain .tooltiptext::after {
+    top: -9600% !important;
+    left: 325% !important;
+  }
+
+  .text-center-mobile {
+    text-align: center !important;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
   body {
     padding: 2% !important;
+  }
+
+  .no-display-mobile {
+    display: none !important;
+  }
+
+  canvas {
+    height: 300px !important;
+    width: 300px !important;
+  }
+
+  .text-right-left-tab {
+    text-align: left !important;
+  }
+
+  .mt-tab-4 {
+    margin-top: 1.5rem !important;
   }
 }
 
@@ -40,15 +138,24 @@
     margin-left: 6% !important;
   }
 
+  .mt-tab-4 {
+    margin-top: 1.5rem !important;
+  }
+
+  .main-plain .tooltiptext {
+    width: 1px !important;
+    top: 12% !important;
+    right: 103% !important;
+  }
+
+
 }
 
-@media (min-width: 922px) and (max-width: 1024px) {
+@media (min-width: 922px) and (max-width: 1023px) {
   body {
     padding: 6% !important;
   }
 }
-
-@media (min-width: 1025px) and (max-width: 1280px) {}
 
 @media (min-width: 1281px) {
   .mt-md-2 {
